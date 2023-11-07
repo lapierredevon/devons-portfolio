@@ -7,6 +7,7 @@ import Stack from "./components/Stack";
 import backGroundStyle from "./components/background.module.css";
 import Foot from "./components/foot";
 import { motion } from "framer-motion";
+import ImageGallery from "./components/ImageGallery";
 
 export default function Home() {
   return (
@@ -75,7 +76,9 @@ export default function Home() {
         <section id="tech-stack">
           <Stack />
         </section>
-        <section id="project-gallery"></section>
+        <section id="project-gallery">
+          <ImageGallery />
+        </section>
       </main>
       <footer className="bg-amber-600 py-2">
         <Foot />
